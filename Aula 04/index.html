@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04</title>
+    <link rel="shortcut icon" href="transferir (1).jpg" type="image/x-icon">
+</head>
+<body>
+    <picture>
+        <img src="transferir (1).jpg" alt="Mega Charizard X" width="100">
+        <figcaption><Small>Mega Charizard X</Small></figcaption>
+    </picture>
+    <h1><center>Aula 04</center></h1>
+    <hr><hr>
+    <h1>Principais formatações</h1>
+    <h2>Negrito vs Destaque</h2>
+    <p>Na frase temos uma parte do texto <strong>em negrito</strong>  usando a tag (não semântica)</p>
+    <p>Na frase temos uma parte do texto <strong>em negrito</strong> usando a tag strong (com semântica)</p>
+    <h2>Itálico vs Ênfase</h2>
+    <p>Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p>Nesta frase vamos entrar com uma palavra em <em>itálico</em> usando a tag EM (com semântica)</p>
+    <h2>Texto marcado</h2>
+    <p> Aqui vamos usar um texto com destaque <mark style="background-color: green;">de marcador de texto</mark> usando mark</p>
+    <p> Aqui vamos usar um texto com destaque <mark style="background-color: yellow;">de marcador de texto</mark> usando mark</p>
+    <h2>Grande e pequeno</h2>
+    <p>Estamos trabalhando aqui com o <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
+    <h2>Texto deletado vs riscado</h2>
+    <p>Neste paragrafo vamos trabalhar com um texto <del>que foi excluido</del> da base (forma semântica)</p>
+    <h2>Texto inserido vs Sublinhado</h2>
+    <p>Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica</p>
+    <p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Vamos demonstrar uma formula da equação do segundo grau ax<sup>2</sup> + bx + c = 0 usando a tag sup</p>
+    <h2>Texto subscrito</h2>
+    <p>vamos demonstrar um texto subscrito com a formula da agua H<sub>2</sub>O</p>
+    <h2>Trecho de código</h2>
+    <p>Neste exemplo vou demonstrar um trecho de codigo</p>
+    <p>Inserindo o comando <code>document.getElementByID('edtcodigo')</code> que é um comando java script</p>
+    <pre>
+        <code>import math
+
+    # Entrada dos coeficientes
+    a = float(input("Digite o valor de a: "))
+    b = float(input("Digite o valor de b: "))
+    c = float(input("Digite o valor de c: "))
+
+# Verifica se é realmente equação do segundo grau
+if a == 0:
+    print("Não é uma equação do segundo grau.")
+else:
+    # Calcula o discriminante (delta)
+    delta = b**2 - 4*a*c
+
+    if delta < 0:
+        print("A equação não possui raízes reais.")
+    elif delta == 0:
+        x = -b / (2*a)
+        print("A equação possui uma raiz real:")
+        print("x =", x)
+    else:
+        x1 = (-b + math.sqrt(delta)) / (2*a)
+        x2 = (-b - math.sqrt(delta)) / (2*a)
+
+        print("A equação possui duas raízes reais:")
+        print("x1 =", x1)
+        print("x2 =", x2)</code>
+    </pre>
+    <h2>Endereço</h2>
+    <h2>Code</h2>
+    <h2>Citações</h2>
+    <h2>Abreviações</h2>
+</body>
+</html>
