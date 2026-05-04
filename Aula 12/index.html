@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 12</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        background-color:   rgb(27, 139, 61);
+        flex-wrap: wrap;
+    }
+    .container div {
+        background-color: #941a1a;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+    .flex-item1:hover {
+        border-bottom: 10px solid rgb(112, 13, 151); 
+        filter: brightness(1.1); 
+        background-color: aquamarine;
+    }
+    .flex-item2:hover {
+        border-bottom: 10px solid rgb(13, 38, 151); 
+        filter: brightness(1.1); 
+        background-color: rgb(255, 0, 140);
+    }
+    .flex-item3:hover {
+        border-bottom: 10px solid rgb(199, 85, 9); 
+        filter: brightness(1.1); 
+        background-color: blueviolet;
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="flex-item1">Item 1</div>
+    <div class="flex-item2">Item 2</div>
+    <div class="flex-item3">Item 3</div>
+
+
+</div>
+</body>
+</html>
