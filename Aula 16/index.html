@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Idade</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1f1b1b;
+    }
+
+    .card {
+      background: rgb(76, 95, 155);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 300px;
+    }
+
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #0a0808;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>Calculadora de Idade</h2>
+
+    <input type="number" id="inputAno" placeholder="Digite seu ano de nascimento">
+
+    <button onclick="calcularIdade()">
+      Calcular Idade
+    </button>
+
+    <div id="resultado"></div>
+  </div>
+
+ <script src="Script.js"></script>
+
+</body>
+</html>
